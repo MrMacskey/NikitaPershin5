@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+    <head>
+        <title>NikitaPershin</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div class = "container-fluid">
+            <div class="d-flex flex-column">
+                <div class="col-sm-12 order-md-0 mx-auto">
+                    <header>
+                        <img class="float-left" src="imagine.png" alt="for search">
+                        <div class="text-center"> Save kid named Finger </div>
+                    </header>
+                </div>
+            <div id="Orders" class="form-group col-sm-12 text-center col-md-7 p-1 order-md-2 mx-auto" >
+                <form name="calculate" onsubmit="return false;">
+                    <h2 class="text-center">Калькулятор цены</h2>
+                    <div class="row">
+                        <div class="col-5 col-md-3">
+                            <b>Название</b>
+                        </div>
+                        <div class="col-2 col-md-2">
+                            <b>Цена</b>
+                        </div>
+                        <div class="col-2 col-md-6">
+                            <b>Количество</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5 col-md-3">
+                            Товар №1:
+                        </div>
+                        <div class="col-2 col-md-4">
+                            <input name="price" type="text" value="300">
+                        </div>
+                        <div class="col-2 col-md-4">
+                            <input name="count" type="text" value="1">
+                        </div>
+                    </div>
+                    <button id = "Putter">Вычислить</button>
+                </form>
+            </div> 
+            <div class="col-sm-12 text-center col-md-7 p-1 order-md-3 mx-auto" id="result"></div>  
+            <div class="col-sm-12 text-center p-1 order-md-5 mx-auto">
+                <footer>
+                    <h3> Pershin Nikita</h3>
+                    <h3> Save Finger </h3>
+                </footer>
+            </div>
+        </div>
+    </body>
+
+</html>
